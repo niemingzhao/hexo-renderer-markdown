@@ -62,6 +62,7 @@ let renderer = function (data, options) {
                 pugs_opt[item] = eval('(' + pugs_opt[item] + ')');
             }
         }
+        if (pugs_opt.disabled) return parser;
         if (pugs === 'markdown-it-katex') {
             data.text += `\n\n<link rel="stylesheet" href="${pugs_opt.csslink}">`;
         }
