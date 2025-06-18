@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-markdown",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "Markdown-it renderer plugin for Hexo.",
   "main": "index.js",
   "scripts": {

@@ -89,6 +89,8 @@ const renderer = function (data, options) {
       };
     }
     if (pugs_opt._parser) return eval("(" + pugs_opt._parser + ")");
+    if (pugs === "markdown-it-anchor") return parser.use(require(pugs).default, pugs_opt);
+    if (pugs === "markdown-it-emoji") return parser.use(require(pugs).full, pugs_opt);
     return parser.use(require(pugs), pugs_opt);
   }, parser);
 
