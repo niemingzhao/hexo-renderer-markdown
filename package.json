@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/niemingzhao/hexo-renderer-markdown#readme",
   "dependencies": {
-    "katex": "^0.16.22",
+    "katex": "^0.18.2",
     "lodash.merge": "^4.6.2",
     "lodash.union": "^4.6.0",
     "markdown-it": "^14.1.0",
